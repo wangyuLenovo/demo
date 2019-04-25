@@ -48,7 +48,7 @@ public class UserController {
     public static void main(String[] args) {
 
         Connection connection = null;
-
+    ////////////////
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/shop?" + "user=root&password=123456&useUnicode=true&characterEncoding=UTF8&useSSL=true";
